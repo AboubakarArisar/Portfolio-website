@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Aside = () => {
   return (
-    <aside className="w-[250px] xsm:hidden md:block h-screen mx-5 mb-5 mt-5 bg-black flex flex-col rounded">
+    <aside className="w-[250px] xsm:hidden lg:block h-screen mx-5 mb-5 mt-5 bg-black flex flex-col rounded">
       <div className="flex flex-col justify-center items-center h-[100px] ">
         <Link
-          className="text-[#8B8A91] flex gap-2 transform transition-all hover:translate-y-2"
+          className="text-[#8B8A91]  bg-black rounded p-5 flex gap-2 hover:bg-blue-100"
           to="/"
         >
           <svg
@@ -26,14 +26,14 @@ const Aside = () => {
           Home
         </Link>
       </div>
-      <div className="flex flex-col justify-start items-center p-5 ">
+      <div className="flex flex-col justify-center items-center  py-5    ">
         <h2 className="text-[#8B8A91] ">Socials</h2>
-        <div className="flex justify-center items-center flex-col gap-4 mt-6">
+        <div className="flex  flex-col gap-4 mt-6 ">
           <a
             href="https://github.com/AboubakarArisar"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#8B8A91] flex  gap-2 transform transition-all hover:translate-y-2"
+            className="text-[#8B8A91] bg-black rounded p-5 flex  gap-2 hover:bg-blue-100"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Aside = () => {
             href="https://www.instagram.com/aboubakarisar05/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#8B8A91] flex gap-2 transform transition-all hover:translate-y-2"
+            className="text-[#8B8A91] flex gap-2 bg-black rounded p-5 hover:bg-blue-100"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ const Aside = () => {
             href="https://www.youtube.com/@pindaricoders"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#8B8A91] flex gap-2 transform transition-all hover:translate-y-2"
+            className="text-[#8B8A91] flex gap-2 transform bg-black rounded p-5 hover:bg-blue-100"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ const Aside = () => {
             href="https://www.linkedin.com/in/aboubakar-arisar-825412264"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#8B8A91] flex gap-2 transform transition-all hover:translate-y-2"
+            className="text-[#8B8A91] bg-black rounded p-5 flex gap-2 hover:bg-blue-100"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

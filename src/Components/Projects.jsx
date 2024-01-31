@@ -29,7 +29,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-3  gap-5 mt-5 pr-5">
           {projects.map((project, index) => (
             <a key={index} target="_blank" href={project.link}>
-              <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+              <div className="flex flex-col overflow-auto gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
                 <img
                   alt={project.name}
                   loading="lazy"

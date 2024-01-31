@@ -4,17 +4,13 @@ const Cover = () => {
   return (
     <>
       <div className="xsm:w-[100vw] md:w-[80vw] flex justify-center items-center xsm:px-3 md:pr-5  relative">
-        <div className="flex rounded-lg w-[100vw] z-10 mt-5  bg-[url('/cover.jpeg')] justify-center items-center gap-2 p-5 bg-no-repeat bg-cover">
-          <div className="flex xsm:flex-col md:flex-row justify-center items-center py-5 content w-full gap-2">
-            <div className="rounded-full  w-[120px] h-[120px] border-2 border-yellow-500 select-none">
-              <img
-                src="/abfinalpic.png"
-                alt=""
-                className="object-cover rounded-full"
-              />
+        <div className="flex rounded-lg xsm:w-[100vw] md:w-[80vw] z-10 mt-5  bg-[url('/cover.jpeg')] justify-center items-center gap-2 p-5 bg-no-repeat bg-cover">
+          <div className="flex xsm:flex-col md:flex-row justify-center items-center w-full p-5 content  gap-2">
+            <div className="rounded-full bg-[url('/abfinalpic.png')] bg-cover w-[120px] h-[120px] border-2 border-yellow-500 select-none">
+              
             </div>
-            <div className="flex-grow flex xsm:flex-col md:flex-row justify-between items-center">
-              <div className="flex flex-col  w-1/2 justify-center mx-20 select-none">
+            <div className="flex-grow flex xsm:flex-col md:flex-row justify-center items-center">
+              <div className="flex flex-col w-1/2 justify-center  md:mx-20 select-none">
                 <h1 className="font-bold text-white text-2xl ">
                   Aboubakar Arisar
                 </h1>

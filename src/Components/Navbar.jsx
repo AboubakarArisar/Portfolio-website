@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <div className="flex fixed z-30 top-0 left-0 right-0">
         <div className="w-1/3 h-[70px] bg-black"> </div>
-        <nav className="bg-black flex justify-end    items-center h-[70px] flex-grow">
+        <nav className="bg-black flex justify-end items-center h-[70px] flex-grow">
           <div>
             <button
               onClick={() => navigate("/contact")}
