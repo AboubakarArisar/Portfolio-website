@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
 
-      <div className="flex bg-black  pt-24 ">
+      <div className='flex bg-black  pt-24 '>
         <Aside />
         <div>
           <Cover />

@@ -15,30 +15,30 @@ const Skills = () => {
     },
     {
       title: "Back-End",
-      tech: ["Express Js", "Node Js"],
+      tech: ["Express Js", "Node Js", "Version Control", "API"],
     },
     {
       title: "Database",
-      tech: ["Mongo DB", "My SQL"],
+      tech: ["Mongo DB", "My SQL", "Sqlite"],
     },
 
     {
       title: "Programming Languages",
-      tech: ["Java", "C++", "JavaScript", "Python", "Rust"],
+      tech: ["Java", "C++", "JavaScript", "Python", "Rust", "Dart"],
     },
   ];
   return (
     <>
-      <div className="xsm:w-[100vw] xsm:p-5 md:w-[80vw]">
-        <div className="text-xl w-full font-medium text-zinc-200 mt-5 mb-5">
+      <div className='xsm:w-[100vw] xsm:p-5 md:w-[80vw]'>
+        <div className='text-xl w-full font-medium text-zinc-200 mt-5 mb-5'>
           Skills
         </div>
-        <div className=" px-5 text-[#8B8A91]">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
+        <div className=' px-5 text-[#8B8A91]'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 '>
             {skills.map((skill, index) => (
-              <div key={index} className="p-4 bg-[#1f1e26] rounded shadow">
-                <h3 className="font-bold mb-2">{skill.title}</h3>
-                <div className="flex flex-wrap">
+              <div key={index} className='p-4 bg-[#1f1e26] rounded shadow'>
+                <h3 className='font-bold mb-2'>{skill.title}</h3>
+                <div className='flex flex-wrap'>
                   {skill.tech.map((tech, i) => {
                     const randomColorClass =
                       colors[Math.floor(Math.random() * colors.length)];
