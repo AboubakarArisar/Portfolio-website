@@ -4,9 +4,9 @@ const Cover = () => {
   return (
     <>
       <div className='xsm:w-[100vw] md:w-[80vw] flex justify-center items-center xsm:px-3 md:pr-5  relative'>
-        <div className="flex rounded-lg xsm:w-[100vw] md:w-[80vw] z-10 mt-5  bg-[url('/cover.jpeg')] justify-center items-center gap-2 p-5 bg-no-repeat bg-cover">
-          <div className='flex xsm:flex-col md:flex-row justify-center items-center w-full p-5 content  gap-2'>
-            <div className="rounded-full bg-[url('/abfinalpic.png')] bg-cover w-[120px] h-[120px] border-2 border-yellow-500 select-none">
+        <div className="flex rounded-lg xsm:w-[100vw] md:w-[80vw]  mt-5 bg-[url('/cover.jpeg')]  justify-center items-center gap-2 p-5 bg-no-repeat bg-cover">
+          <div className='flex xsm:flex-col md:flex-row justify-center z-11 items-center w-full p-5 content  gap-2'>
+            <div className="rounded-full bg-[url('/abfinalpic.png')]  bg-cover w-[120px] h-[120px] border-2 border-yellow-500 select-none">
               <img
                 src='/abfinalpic.png'
                 className='w-full h-full rounded-full'
@@ -18,7 +18,9 @@ const Cover = () => {
                 <h1 className='font-bold text-white text-2xl '>
                   Aboubakar Arisar
                 </h1>
-                <span className='text-white font-normal'>@pindaricoders</span>
+                <span className='text-white font-normal'>
+                  MERN Stack Developer
+                </span>
               </div>
               <div className='w-full flex xsm:flex-col md:flex-row justify-center items-center'>
                 <a
