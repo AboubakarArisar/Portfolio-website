@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Aside = () => {
   return (
-    <aside className='w-[250px] xsm:hidden lg:block h-screen mx-5 mb-5 mt-5 bg-black flex flex-col rounded'>
+    <aside className='w-[250px] xsm:hidden p-5  lg:block h-screen mx-5 mb-5 mt-5 bg-zinc-900 flex flex-col rounded'>
       <div className='flex flex-col justify-center items-center h-[100px] '>
         <Link
-          className='text-[#8B8A91]  bg-black rounded p-5 flex gap-2 hover:bg-zinc-900'
+          className='text-[#8B8A91]  bg-zinc-900 rounded p-5 flex gap-2 hover:translate-y-[-5px] duration-300'
           to='/'
         >
           <svg
@@ -33,7 +33,7 @@ const Aside = () => {
             href='https://github.com/AboubakarArisar'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-[#8B8A91] bg-black rounded p-5 flex  gap-2 hover:bg-zinc-900'
+            className='text-[#8B8A91] bg-zinc-900 rounded p-5 flex  gap-2 hover:translate-y-[-5px] duration-300'
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -56,7 +56,7 @@ const Aside = () => {
             href='https://www.instagram.com/aboubakarisar05/'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-[#8B8A91] flex gap-2 bg-black rounded p-5 hover:bg-zinc-900'
+            className='text-[#8B8A91] flex gap-2 rounded p-5 bg-zinc-900 hover:translate-y-[-5px] duration-300'
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -78,9 +78,10 @@ const Aside = () => {
           </a>
           <a
             href='https://www.youtube.com/@pindaricoders'
+            t
             target='_blank'
             rel='noopener noreferrer'
-            className='text-[#8B8A91] flex gap-2 transform bg-black rounded p-5 hover:bg-zinc-900'
+            className='text-[#8B8A91] flex gap-2 transform  rounded p-5 bg-zinc-900 hover:translate-y-[-5px] duration-300'
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -103,7 +104,7 @@ const Aside = () => {
             href='https://www.linkedin.com/in/aboubakar-arisar-825412264'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-[#8B8A91] bg-black rounded p-5 flex gap-2 hover:bg-zinc-900'
+            className='text-[#8B8A91] bg-zinc-900 rounded p-5 flex gap-2 hover:translate-y-[-5px] duration-300'
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
