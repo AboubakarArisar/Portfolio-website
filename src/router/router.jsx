@@ -9,9 +9,9 @@ const RouterComponent = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/contact" element={<Contact/>} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path='*' element={<PageNotFound />} />
+        <Route path='/' element={<App />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
     </Router>
   );

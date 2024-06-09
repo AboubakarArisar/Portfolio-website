@@ -11,7 +11,7 @@ const Skills = () => {
   const skills = [
     {
       title: "Front-End",
-      tech: ["HTML", "CSS", "Tailwind css", "React Js"],
+      tech: ["HTML", "CSS", "Tailwind css", "React Js", "TypeScript"],
     },
     {
       title: "Back-End",
@@ -33,7 +33,7 @@ const Skills = () => {
         <div className='text-xl w-full font-medium text-zinc-200 mt-5 mb-5'>
           Skills
         </div>
-        <div className=' px-5 text-[#8B8A91]'>
+        <div className=' text-[#8B8A91]'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 '>
             {skills.map((skill, index) => (
               <div key={index} className='p-4 bg-[#1f1e26] rounded shadow'>
