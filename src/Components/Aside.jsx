@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Aside = () => {
   return (
-    <aside className='w-[250px] xsm:hidden p-5  lg:block h-screen mx-5 mb-5 mt-5 bg-zinc-900 flex flex-col rounded'>
+    <aside className='w-[250px] xsm:hidden p-5 sticky top-0 lg:block h-screen mx-5 mb-5 mt-5 bg-zinc-900 flex flex-col rounded'>
       <div className='flex flex-col justify-center items-center h-[100px] '>
         <Link
           className='text-[#8B8A91]  bg-zinc-900 rounded p-5 flex gap-2 hover:translate-y-[-5px] duration-300'
