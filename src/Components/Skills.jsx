@@ -19,7 +19,7 @@ const Skills = () => {
     },
     {
       title: "Database",
-      tech: ["Mongo DB", "My SQL", "Sqlite"],
+      tech: ["Mongo DB", "My SQL", "Sqlite", "Postgres"],
     },
 
     {
@@ -36,7 +36,10 @@ const Skills = () => {
         <div className=' text-[#8B8A91]'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 '>
             {skills.map((skill, index) => (
-              <div key={index} className='p-4 bg-[#1f1e26] rounded shadow'>
+              <div
+                key={index}
+                className='p-4 bg-[#1f1e26] rounded shadow-2xl hover:scale-105 duration-300'
+              >
                 <h3 className='font-bold mb-2'>{skill.title}</h3>
                 <div className='flex flex-wrap'>
                   {skill.tech.map((tech, i) => {
