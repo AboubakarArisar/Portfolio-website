@@ -17,9 +17,7 @@ const Cover = () => {
               </div>
               <div className='flex-grow flex xsm:flex-col md:flex-row justify-center items-center'>
                 <div className='flex flex-col w-1/2 justify-center md:mx-20 select-none'>
-                  <h1 className='font-bold text-white text-2xl'>
-                    Aboubakar Arisar
-                  </h1>
+                  <h1 className='font-bold text-white text-2xl'>Abou Bakar</h1>
                   <span className='text-white font-normal'>
                     MERN Stack Developer
                   </span>

@@ -30,9 +30,9 @@ const Skills = () => {
   return (
     <>
       <div className='xsm:w-[100vw] xsm:p-5 md:w-[80vw]'>
-        <div className='text-xl w-full font-medium text-zinc-200 mt-5 mb-5'>
+        <h2 className='text-3xl font-semibold text-zinc-100 mb-6 pb-2'>
           Skills
-        </div>
+        </h2>
         <div className=' text-[#8B8A91]'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 '>
             {skills.map((skill, index) => (
