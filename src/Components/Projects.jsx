@@ -15,14 +15,14 @@ const Projects = () => {
       name: "Projects-and-payments",
       technologies:
         "React js, React Hook Form, Redux, Express js, Mongo db,  Tailwind CSS",
-      live: "https://example.com/projects-and-payments",
+      live: "https://projects-and-payments.vercel.app/",
       code: "https://github.com/AboubakarArisar/Pindari-Coders-Website",
       image: "/project.jpg",
     },
     {
       name: "Chatty App",
       technologies: "NodeJs, Express, Socket-io, Tailwind CSS",
-      live: "https://example.com/chatty-app",
+      live: "https://github.com/AboubakarArisar/chatty-app",
       code: "https://github.com/AboubakarArisar/chatty-app",
       image: "/chatty.jpg",
     },
