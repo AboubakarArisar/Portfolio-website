@@ -24,7 +24,7 @@ const Skills = () => {
 
     {
       title: "Programming Languages",
-      tech: ["Java", "C++", "JavaScript", "Python", "Rust", "Dart", "Go Lang"],
+      tech: ["Java", "C++", "JavaScript", "Python", "Rust", "Dart", "Go lang"],
     },
   ];
   return (
