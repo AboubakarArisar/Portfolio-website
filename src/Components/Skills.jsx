@@ -15,7 +15,7 @@ const Skills = () => {
     },
     {
       title: "Back-End",
-      tech: ["Express Js", "Node Js", "Version Control", "API"],
+      tech: ["Express Js", "Node Js", "Version Control", "API", "Go Lang"],
     },
     {
       title: "Database",
@@ -24,7 +24,7 @@ const Skills = () => {
 
     {
       title: "Programming Languages",
-      tech: ["Java", "C++", "JavaScript", "Python", "Rust", "Dart"],
+      tech: ["Java", "C++", "JavaScript", "Python", "Rust", "Dart", "Go Lang"],
     },
   ];
   return (
