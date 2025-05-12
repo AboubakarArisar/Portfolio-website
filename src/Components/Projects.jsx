@@ -1,28 +1,28 @@
 import React from "react";
-import { Eye, Github, ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Eye, Github,  } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
       name: "NoteSwap",
-      technologies:
-        "React, Express js, Mongo DB, Nodejs, Axios, Cloudinary, Multer",
+      description:
+        "A notesharing platform with real time leaderboard points for uploading and downloading",
       live: "https://noteswap-sigma.vercel.app/",
       code: "https://github.com/AboubakarArisar/NoteSwap-Frontend",
       image: "https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_630,w_1200/v1464051370/zewn7jsdcyy5apqndiac.jpg",
+      
     },
     {
       name: "Projects-and-payments",
-      technologies:
-        "React js, React Hook Form, Redux, Express js, Mongo db,  Tailwind CSS",
+      description:
+        "A platform for handling payments and projects of an startup or company",
       live: "https://projects-and-payments.vercel.app/",
       code: "https://github.com/AboubakarArisar/Pindari-Coders-Website",
       image: "/project.jpg",
     },
     {
       name: "Droplr",
-      technologies: "NodeJs, Express, React-js, Geolocation, MongoDb, Cloudinary, Tailwind CSS",
+      description: "File sharing on the basis of geolocation, file is shared in 200m radius with 20 minutes expiry",
       live: "https://droplr-front.vercel.app/",
       code: "https://github.com/AboubakarArisar/Droplr",
       image: "https://www.cleo.com/sites/default/files/secure-file-sharing.jpg",
@@ -74,7 +74,7 @@ const Projects = () => {
                   {project.name}
                 </h3>
                 <p className='text-sm text-zinc-400 mt-2'>
-                  {project.technologies}
+                  {project.description}
                 </p>
               </div>
             </div>
